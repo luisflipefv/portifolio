@@ -1,13 +1,38 @@
 import Title from "../../components/title"
+import { Projeto } from "../../components/Projeto"
+import { ListaProjetos } from "./styled"
 
 const Projetos = () => (
     <section>
         <Title fontSize={16}>
             Projetos
         </Title>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit vero numquam animi. Quibusdam aspernatur obcaecati suscipit ipsa corporis nulla sequi fuga dolor, quia necessitatibus quaerat ullam repudiandae doloremque labore neque?
-        </p>
+        <ListaProjetos>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+            <li>
+                <Projeto></Projeto>
+            </li>
+        </ListaProjetos>
     </section>
 )
 
